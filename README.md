@@ -11,7 +11,9 @@ A 4 KB Python chess engine (MIT). Original code, sunfish-inspired design.
   so every trial replays deterministically
 - `main.py` is an lzma-compressed payload of the readable source
   (`engine_src.py`, kept outside this submission); the packed file is
-  4,094 bytes, within the 4,096 cap
+  4,090 bytes, within the 4,096 cap
+- Local practice trial (unofficial, kit env + official scorer): 3W 2D 3L,
+  Elo 1,396 — above the 1,154 floor and the sunfish baseline (~1,326)
 
 ## Grade it locally
 
